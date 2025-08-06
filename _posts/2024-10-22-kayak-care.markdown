@@ -2,7 +2,7 @@
 layout: post
 title:  "Skin on frame kayak care"
 date:   2024-10-22 10:20:43 +0100
-categories: workshop
+categories: other
 image: /assets/images/posts_list/care.jpg
 ---
 
