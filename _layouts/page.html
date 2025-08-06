@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{%- assign class = '' -%}
+{%- if page.url == '/creations/' -%}
+{%- assign class = 'catalog grid' -%}
+{%- elsif page.url contains '/creations/' -%}
+{%- assign class = 'product grid' -%}
+{%- endif -%}
+
+<article class="page">
+
+  <div class="page content {{class}}">
+    {{ content }}
+  </div>
+
+  {%- if page.url == '/contact/' -%}
+  <div class="contact">
+    <p class="email">Email: <a href="mailto:info@manboat.eu">info@manboat.eu</a></p>
+    <div class="post-socials">
+      <p>{{ site.social_heading | escape }}</p>
+      {%- include social.html -%}
+    </div>
+  </div>
+  {%- endif -%}
+
+</article>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+
+      {%- include cover.html -%}
+
+      <div class="wrapper ">
+        {%- if page.url == '/' -%}
+          <div class="home grid">
+        {%- endif -%}
+
+        {{ content }}
+
+        {%- if page.url == '/' -%}
+          </div>
+        {%- endif -%}
+      </div>
+
+      {%- if page.url == '/' -%}
+      <div class="cover home">
+        <div class="img" style="background-image:url('/assets/images/covers/cover_01.webp');"></div>
+        <div class="container cover">
+          <h1 class="page-heading">Why Man Boat?</h1>
+          <p>Kayak. Originally developed by the indigenous Inuit, Yup'ik and Aleut people. Inuktitut word 'qayaq' means "hunter's boat" or "man's boat".</p>
+        </div>
+      </div>
+      {%- endif -%}
+
+    </main>
+
+    {%- include footer.html -%}
+
+    {%- if page.url != '/creations/' and page.url contains '/creations/' or page.layout == 'post' -%}
+    <script src="/assets/js/fslightbox.js"></script>
+    {%- endif -%}
+    <script src="/assets/js/dom.js"></script>
+  </body>
+
+</html>

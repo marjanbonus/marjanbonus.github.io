@@ -1,0 +1,79 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    <img class="paddle" src="{{site.imgpath}}paddle.svg" width="100%" alt="paddle-image"/>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <h2 class="footer-heading">{{ site.info_heading | escape }}</h2>
+        <ul class="contact-list">
+            {%- if site.pin -%}
+            <li>PIN: {{ site.pin }}</li>
+            {%- endif -%}
+            {%- if site.address -%}
+            <li>{{ site.address }}</li>
+            {%- endif -%}
+            {%- if site.phone -%}
+            <li><a class="u-phone" href="tel:{{ site.phone }}">{{ site.phone }}</a></li>
+            {%- endif -%}
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <h2 class="footer-heading">{{ site.terms_heading | escape }}</h2>
+        {%- assign default_paths = site.pages | map: "path" -%}
+        {%- assign page_paths = site.terms_pages | default: default_paths -%}
+        {%- if page_paths -%}
+          <ul class="terms-list">
+            {%- for path in page_paths -%}
+              <li>
+                {%- assign my_page = site.pages | where: "path", path | first -%}
+                {%- if my_page.title -%}
+                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                {%- endif -%}
+              </li>
+            {%- endfor -%}
+          </ul>
+        {%- endif -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <h2 class="footer-heading">{{ site.service_heading | escape }}</h2>
+        {%- assign default_paths = site.pages | map: "path" -%}
+        {%- assign page_paths = site.service_pages | default: default_paths -%}
+        {%- if page_paths -%}
+          <ul class="service-list">
+            {%- for path in page_paths -%}
+              <li>
+                {%- assign my_page = site.pages | where: "path", path | first -%}
+                {%- if my_page.title -%}
+                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                {%- endif -%}
+              </li>
+            {%- endfor -%}
+          </ul>
+        {%- endif -%}      </div>
+
+      <div class="footer-col footer-col-4">
+        <h2 class="footer-heading">{{ site.social_heading | escape }}</h2>
+        {%- include social.html -%}
+      </div>
+    </div>
+
+    {% assign year_from = site.posts[-1].date | date: '%Y' %}
+    {% assign year_to   = site.time | date: '%Y' %}
+    {% if year_from == nil or year_from == year_to %}
+      {% assign year_string = year_from %}
+    {% else %}
+      {% assign from_to_seperator = site.data.strings.from_to_seperator | default: '-' %}
+      {% assign year_string = year_from | append: '&nbsp;' | append: from_to_seperator | append: '&nbsp;' | append: year_to %}
+    {% endif %}
+    <p class="copy">{{ site.copyright | markdownify | replace:'<!--copyyears-->',year_string | replace:'<p>','' | replace:'</p>','' }}</p>
+
+  </div>
+
+</footer>

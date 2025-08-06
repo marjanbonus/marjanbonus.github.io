@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Greenland kayak purpose"
+date:   2024-10-22 08:20:43 +0100
+categories: other
+image: /assets/images/posts_list/purpose.jpg
+---
+
+Qajaq.  Greenland kayaks are believed to be around 4,000 years old. Main purpose of traditional Greenlandic kayaks was <strong>hunting</strong>. It was often called an extension of the hunter's body, which enabled him to silently approach his prey with a harpoon.
+These people were excellent paddlers and knew many ways to roll a kayak, or return to the surface in the event of a capsizing, regardless of the position they were in at the time of the capsizing. 
+The 'Tuilik' or suit they used was made of leather and was waterproof around hands and head, and was attached to the coaming. Getting out of the kayak in the event of a capsizing was not an option, because without dry suits, even in summer sea temperatures of only a few degrees, it meant hypothermia and death. 
+They lived exclusively from hunting, so having a kayak was a status symbol in society; anyone who didn't know how to make one didn't hunt, didn't have a family...in short, kayak meant life to them.  That was probably the main reason why they brought these vessels to perfection. To hunt and servive in rough sea conditions.
+
+## Greenlandic kayaks today
+
+Nowadays, hunting is done with more modern vessels  and the kayak has remained a symbol of the Greenlandic identity, along with traditional games of rolling, throwing harpoons from kayaks...
+Besides this, because of their smaller volume, they are very nice crafts for one day trips, although with today's modern equipment that is getting smaller and smaller, it's possible to do even multi day trip.
+It will paddle great at the sea, river or lake, but they are not for white water.

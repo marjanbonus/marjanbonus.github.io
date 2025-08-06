@@ -1,0 +1,35 @@
+{% assign home_class = '' %}
+{%- if page.url == '/' -%}
+{%- assign home_class = 'home' -%}
+{%- endif -%}
+
+<div class="cover {{home_class}}">
+    
+    {%- if page.url == '/' -%}
+    {% assign cover_path = site.home_cover %}
+    {%- elsif page.url == '/blog/' or page.url contains '/workshop/' -%}
+    {%- assign cover_path = site.blog_cover -%}
+    {%- else -%}
+    {%- assign cover_path = site.pages_cover -%}
+    {%- endif-%}
+
+    <div class="img" style="background-image:url('{{cover_path}}');"></div>
+    
+    {%- if page.url == '/' -%}
+    <div class="container cover">
+    {%- endif -%}
+
+
+    {%- if page.title -%}
+      <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+    {%- if page.url == '/' and site.cover_paragraph -%}
+        <p>{{ site.cover_paragraph }}</p>
+    {%- endif -%}
+
+    {%- if page.url == '/' -%}
+    </div>
+    {%- endif -%}
+
+
+  </div>
