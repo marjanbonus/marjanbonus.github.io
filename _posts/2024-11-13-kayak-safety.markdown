@@ -41,7 +41,7 @@ Skin on frame kayaks do not have air chamber so it's good to have <strong>float 
 
 ## Self rescoue in a skin on frame kayak
 
-Here is my video where I'm showing self rescue in my totally submerged West Greenland skin on frame kayak. This one is my recent build, LOA 520cm, beam 53cm and it weights 12kg. :)
+Here is my video (at the bottom) where I'm showing self rescue in my totally submerged West Greenland skin on frame kayak. This one is my recent build, LOA 520cm, beam 53cm and it weights 12kg. :)
 I forgot to take my bilge pump with me, but with this method, there is so <strong>little water</strong> left in a kayak that it does not affect its stability, so you can continue with paddling to shore safely in order to remove the rest of water with sponge or use a bilge pump.
 
 Kayak full of water will be the rare case, but it can be seen how fast it can be done. It's a little bit harder if you are not standing on the ground but as you can see, it can be done with a little bit of leg work. :) It's easier to do this with additional buoyancy, so here is <strong>one more reason to wear a PFD</strong>.
@@ -56,5 +56,7 @@ At the end, there is always risk involved with an advanture but knowing more abo
 You probably hear a famous <strong>quote</strong> 'A ship is safest in a harbor, but that's not what ships are built for' - John A. Shedd.
 
 <div class="iframe">
-    <iframe src="https://www.youtube.com/watch?v=RgdYQnMf4vI" frameborder="0" allowfullscreen></iframe>
+    <div class="iframe-wrapper">
+        <iframe src="https://www.youtube.com/embed/RgdYQnMf4vI" frameborder="0" allowfullscreen></iframe>
+    </div>
 </div>
