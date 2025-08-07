@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kayak Safety and self rescue"
-date:   2024-11-13 08:20:43 +0100
+date:   2025-08-05 08:20:43 +0100
 categories: on-the-water
 image: /assets/images/posts_list/safety.jpg
 ---

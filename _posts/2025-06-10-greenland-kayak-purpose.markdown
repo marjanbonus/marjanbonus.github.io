@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Greenland kayak purpose"
-date:   2024-10-22 08:20:43 +0100
+date:   2025-06-10 08:20:43 +0100
 categories: other
 image: /assets/images/posts_list/purpose.jpg
 ---
