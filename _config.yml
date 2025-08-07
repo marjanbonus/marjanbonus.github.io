@@ -20,9 +20,6 @@
 
 title: Man Boat
 email: info@manboat.eu
-# phone: +385 91 972 4255
-# address: Grgura Ninskog 10, 31221 Josipovac, Croatia
-# pin: xxxxxxxxxxx
 info_heading: Info
 terms_heading: Terms and Conditions
 service_heading: Service
@@ -30,7 +27,7 @@ social_heading: Social
 description: >- # this means to ignore newlines until "baseurl:"
   Skin on frame kayaks
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://manboat.eu" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: manboatdoteu
 instagram_username: manboatdoteu
 youtube_username: manboatdoteu
@@ -63,14 +60,9 @@ header_pages:
   - _pages/contact.markdown
 
 terms_pages:
-  # - _pages/payments.markdown
-  # - _pages/terms.markdown
   - _pages/privacy.markdown
 
 service_pages:
-  # - _pages/shipping.markdown
-  # - _pages/withdrawal.markdown
-  # - _pages/warranty.markdown
   - _pages/contact.markdown
 
 
