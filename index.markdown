@@ -11,4 +11,4 @@ description: A unique type of watercraft built for rough sea conditions and hunt
 ![home_banner](/assets/images/covers/home_banner.webp)
 
 ## West greenland kayak
-Check my work in [blog]({{ site.baseurl }}/blog) and [creations]({{ site.baseurl }}/creations) part.
+Check my work in the [blog]({{ site.baseurl }}/blog) and [creations]({{ site.baseurl }}/creations) part.
