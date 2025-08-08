@@ -34,12 +34,24 @@ On larger waves, keep your distance from shore. Waves could crush you and your k
 
 <strong>Dress for immersion</strong>, according to water temperature and hypothermia prevention. Google it.
 
-Skin-on-frame kayaks do not have air chambers, so it's good to have <strong>float bags</strong> that will add additional buoyancy and reduce the amount of water that can get in the kayak.
-<strong>Gear dry bags</strong> will also help. There are float bags made for kayak stems out there. I use pull cord (from cockpit to stems, installed during frame build) in all of my kayaks for easier install, so you can pull the float/dry bag to the stems.
+Skin-on-frame kayaks do not have air chambers, so it's good to have <strong>float bags</strong> that will add additional buoyancy and reduce the amount of water that can enter the kayak.
+<strong>Gear dry bags</strong> will also help. There are float bags made specifically for kayak stems. I use pull cord (cord tied in a loop from the cockpit to the stems, with one part underneath the ribs and one part over the ribs, installed during the frame build) in all of my kayaks for easier packing (a popular solution among skin-on-frame kayakers), so you can pull the float/dry bag to the stems.
+
+[![pull_cord](/assets/images/posts/kayak-safety/pull_cord_s.jpg)](/assets/images/posts/kayak-safety/pull_cord.jpg){:data-fslightbox="gallery1"}
+{: .post-gallery .one}
+
+I'll make a separate detailed post about packing a Greenland kayak and pull cords, but I wanted to mention this here because the front pull cord <strong>may potentially create a safety problem</strong> since I do not like any type of cords around my legs when I want to exit my kayak! I have tried numerous times to exit from the kayak on land and in very shallow water and have not had any problems. If you are unsure about this for any reason, please remove the front cord. I can always install the front float bag after the frame build, before skinning.
+
 
 ## Self rescoue in a skin on frame kayak
 
-Here is my video (at the bottom) where I'm showing self rescue in my totally submerged West Greenland skin-on-frame kayak. This one is my recent build, LOA 520cm, beam 53cm, and it weighs 12kg. :)
+<div class="iframe">
+    <div class="iframe-wrapper">
+        <iframe src="https://www.youtube.com/embed/RgdYQnMf4vI" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+Here is my video where I'm showing self rescue in my totally submerged West Greenland skin-on-frame kayak. This one is my recent build, LOA 520cm, beam 53cm, and it weighs 12kg. :)
 I forgot to take my bilge pump with me, but with this method, there is so <strong>little water</strong> left in a kayak that it does not affect its stability, so you can continue paddling to shore safely to remove the rest of the water with a sponge or use a bilge pump.
 
 A kayak full of water will be a rare case, but it can be seen how fast it can be done. It's a little harder if you are not standing on the ground, but as you can see, it can be done with a little leg work. :) It's easier to do this with additional buoyancy, so here is <strong>one more reason to wear a PFD</strong>.
@@ -52,9 +64,3 @@ This type of rescue is actually easy because of the Greenland paddle. If you kno
 
 In the end, there is always risk involved with an adventure, but knowing more about safety and different techniques that can save you will reduce that risk.
 You probably heard the famous <strong>quote</strong>: 'A ship is safest in a harbor, but that's not what ships are built for' - John A. Shedd.
-
-<div class="iframe">
-    <div class="iframe-wrapper">
-        <iframe src="https://www.youtube.com/embed/RgdYQnMf4vI" frameborder="0" allowfullscreen></iframe>
-    </div>
-</div>
