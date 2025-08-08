@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Skin on frame kayak care"
+description: "Essential maintenance tips for skin on frame kayaks. With proper storage and maintenance you can extend your SOF kayak's lifespan and keep it seaworthy for years of paddling adventures."
 date:   2025-07-12 10:20:43 +0100
 categories: other
 image: /assets/images/posts_list/care.jpg
@@ -21,7 +22,7 @@ I made this stand for my kayaks so once the kayak is in this position (picture),
 Most abrasion happens where the skin touches the frame. That would be the keelson and chines. I usually make oak strips (soaked in tung oil) and attach them with A4 stainless steel screws to keelson ends/stems.
 Although there are also some historical kayak examples that had protections on chines too, I do not put them on my kayaks.
 
-## Skin on frame thoughness and durability
+### Skin on frame thoughness and durability
 
 Can this translucent skin be durable? 
 ![skin_on_frame_toughness](/assets/images/posts/skin-on-frame-kayak-care/tough.jpg)
@@ -39,7 +40,7 @@ The urethane coating that I use at the moment is nice, UV-resistant, and has goo
 
 Greenlanders reskinned their kayaks every year or two. The seal skin was rotting, so it was needed. With modern materials of today, the situation is much different. In the end, once the skin is all beaten up, with reskinning of the kayak, you get a new kayak. That is something you can do yourself, and I'll make a separate post about it.
 
-## Repairs
+### Repairs
 
 For quick/on-the-water repairs, I always bring a few meters of duct tape with me, although I have not needed it so far.
 Punctures can be sealed with urethane or SMP (MS Polymer) based sealants. I experimented a little, and Bison Poly Max high tack express is a good one.

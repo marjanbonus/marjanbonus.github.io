@@ -34,7 +34,7 @@ youtube_username: manboatdoteu
 imgpath: /assets/images/
 copyright: © <!--copyyears--> Man Boat. All Rights Reserved.
 home_cover: '/assets/images/covers/home_01.webp'
-cover_paragraph: "Unique type of watercraft built for rough sea conditions and hunting. It's hard to say replica, but Man Boat builds very similar type of kayaks."
+cover_paragraph: "A unique type of watercraft built for rough sea conditions and hunting. It's hard to call them replicas, but Man Boat builds a very similar type of kayak."
 blog_cover: '/assets/images/covers/kayak_frame_bottom.jpg'
 pages_cover: '/assets/images/covers/kayak_frame_top.jpg'
 show_excerpts: true
@@ -46,7 +46,7 @@ kramdown:
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-sitemap
 sass:
   style: compressed
 

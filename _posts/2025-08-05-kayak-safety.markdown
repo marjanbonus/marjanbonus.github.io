@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Kayak Safety and self rescue"
+title:  "Kayak Safety and self-rescue"
+description: "I usually like to come back alive from kayaking. It goes without saying that safety is paramount here. Kayak safety tips and self-rescue for West Greenland skin-on-frame kayaks"
 date:   2025-08-05 08:20:43 +0100
 categories: on-the-water
 image: /assets/images/posts_list/safety.jpg
@@ -16,7 +17,7 @@ With these techniques, you will have more self-confidence when you are paddling 
 One thing that goes before them all is to use your brain, be able to recognize dangerous situations, and <strong>stay out of trouble</strong>, because it's much easier than dealing with trouble.
 
 Although <strong>wet exits</strong> from these ocean-type smaller Greenlandic cockpits are much easier than entering them, you should learn this with a friend next to you, so you can get assistance if something goes wrong. Once you know how to do it, you will feel safer and with more self-confidence. Another step is rolling. :)
-<strong>Learning to roll</strong> is much easier with having a good instructor next to you, or at least someone who will assist you if you fail with your roll. If you know <strong>wet exit</strong>, you can practice rolls alone, but it's the worst-case scenario because it can get a little frustrating doing wet exits, dumping water, and reentering your kayak on every failed roll (my scenario).
+<strong>Learning to roll</strong> is much easier with having a good instructor next to you, or at least someone who will assist you if you fail with your roll. If you know wet exit, you can practice rolls alone, but it's the worst-case scenario because it can get a little frustrating doing wet exits, dumping water, and reentering your kayak on every failed roll (my scenario).
 <strong>Do not</strong> practice this on rivers (moving water) or in water that's too shallow for safety reasons.
 
 Whether you are on the <strong>river</strong> or <strong>the sea</strong>, there are always <strong>dangers you need to be aware of</strong>.
@@ -43,7 +44,7 @@ Skin-on-frame kayaks do not have air chambers, so it's good to have <strong>floa
 I'll make a separate detailed post about packing a Greenland kayak and pull cords, but I wanted to mention this here because the front pull cord <strong>may potentially create a safety problem</strong> since I do not like any type of cords around my legs when I want to exit my kayak! I have tried numerous times to exit from the kayak on land and in very shallow water and have not had any problems. If you are unsure about this for any reason, please remove the front cord. I can always install the front float bag after the frame build, before skinning.
 
 
-## Self rescoue in a skin on frame kayak
+### Self rescoue in a skin on frame kayak
 
 <div class="iframe">
     <div class="iframe-wrapper">

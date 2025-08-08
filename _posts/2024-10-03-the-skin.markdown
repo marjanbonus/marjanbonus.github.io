@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The skin - 'Amiq'"
+description: "From traditional sealskin and canvas to more modern materials such as polyester and polyamide. In search of the ideal skin-on-frame kayak fabric with optimal durability and abrasion resistance."
 date:   2024-10-02 18:20:43 +0100
 categories: other
 image: /assets/images/posts_list/kayak_skin.jpg
@@ -14,7 +15,7 @@ With the invention of modern materials, polyester and nylon (polyamide) became t
 ### Polyester
 Polyester is a little better in UV resistance, but it's less abrasion-resistant than nylon, and most coatings will stick to it without a problem. It can be tricky to work with because it will not stretch like nylon, so it's harder to apply it nicely to follow kayak curves, and you could get wrinkles—but this is resolved by shrinking it with an iron. That said, if you look for polyester fabric, you should find one that is not preshrunk!
 
-### Nylon
+### Polyamide
 To be precise, ballistic nylon. It was developed by the DuPont corporation as a material for bulletproof vests in WWII, with great abrasion and puncture resistance. It's nice to work with as it follows kayak curves because of its stretchiness. Next to greater abrasion resistance, this stretchiness is actually the second important reason why I chose nylon. It will simply better absorb hits if struck with something. On the downside, it's hygroscopic, so it can relax a little in humid and cold weather, so you get loose skin in these conditions. This effect mainly disappears over time, but to prevent this, it's important to tighten it correctly around the frame, even sewing the fabric when wet if needed. Not every coating will stick to it, but oil-based urethanes will do the trick, and most of these will have good UV resistance too. So, if applied correctly, these downsides can be avoided.
 
 The USA has more skin-on-frame kayak builders, so more choice of materials too.

@@ -589,9 +589,22 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   margin: 40px 0;
+  align-items: start;
 
   @include min-media-query($on-laptop) {
     margin: 60px 0;
+  }
+
+  h2 {
+    @include media-query($on-laptop) {
+      grid-column: 1/13;
+      text-align: center;
+    }
+    @include min-media-query($on-laptop) {
+      grid-row: 1;
+      grid-column: 8/13;
+      align-self: start;
+    }
   }
 
   p {
@@ -601,29 +614,20 @@
     @include min-media-query($on-laptop) {
       &:first-child {
         grid-column: 1/7;
-
       }
       &:last-child {
+        grid-row: 1;
         grid-column: 8/13;
+        align-self: start;
+        margin-top: 60px;
       }
     }
     @include media-query($on-laptop) {
-      &:last-child {
-        margin-top: 20px;
-        text-align: center;
+      &:first-child {
+        margin-bottom: 20px;
       }
-    }
-
-    strong {
-      font-family: $heading-font-family;
-      font-weight: $base-font-weight;
-      @include relative-font-size(1.8);
-      position: relative;
-      text-align: center;
-    
-      @include media-query($on-palm) {
-        @include relative-font-size(1.7);
-        line-height: 40px;
+      &:last-child {
+        text-align: center;
       }
     }
   }

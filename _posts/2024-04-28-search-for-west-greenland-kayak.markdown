@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Search for West Greenland Kayak"
+description: "Studying and building a West Greenland kayak"
 date:   2024-04-28 18:20:43 +0100
 categories: workshop
 image: /assets/images/posts_list/west_greenland_kayak.jpg

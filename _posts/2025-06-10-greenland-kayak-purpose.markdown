@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Greenland kayak purpose"
+description: "Main purpose of the skin-on-frame Greenland hunting kayak."
 date:   2025-06-10 08:20:43 +0100
 categories: other
 image: /assets/images/posts_list/purpose.jpg
