@@ -8,7 +8,7 @@ title: Skin on frame kayaks
 description: A unique type of watercraft built for rough sea conditions and hunting. It's hard to call them replicas, but Man Boat builds a very similar type of kayak using traditional techniques passed down through generations of Arctic builders.
 ---
 
-![home_banner](/assets/images/covers/home_banner.webp)
+[![home_banner](/assets/images/covers/home_banner.webp)]({{ site.baseurl }}/creations/west_greenland_kayak)
 
 ## West greenland kayak
 Check my work in the [blog]({{ site.baseurl }}/blog) and [creations]({{ site.baseurl }}/creations) part.

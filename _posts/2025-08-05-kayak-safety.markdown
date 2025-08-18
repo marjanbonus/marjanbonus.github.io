@@ -46,11 +46,7 @@ I'll make a separate detailed post about packing a Greenland kayak and pull cord
 
 ### Self rescoue in a skin on frame kayak
 
-<div class="iframe">
-    <div class="iframe-wrapper">
-        <iframe src="https://www.youtube.com/embed/RgdYQnMf4vI" frameborder="0" allowfullscreen></iframe>
-    </div>
-</div>
+[![skin_on_frame_kayak_safety](/assets/images/posts/kayak-safety/kayak-safety-youtube-thumb.jpg)](https://www.youtube.com/watch?v=RgdYQnMf4vI){:target="_blank"}
 
 Here is my video where I'm showing self rescue in my totally submerged West Greenland skin-on-frame kayak. This one is my recent build, LOA 520cm, beam 53cm, and it weighs 12kg. :)
 I forgot to take my bilge pump with me, but with this method, there is so <strong>little water</strong> left in a kayak that it does not affect its stability, so you can continue paddling to shore safely to remove the rest of the water with a sponge or use a bilge pump.
