@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Creations
+description: "Handcrafted West Greenland kayaks, traditional Greenland paddles, and custom cockpit coamings. View my authentic skin-on-frame kayak builds and traditional craftsmanship."
 permalink: /creations/
 ---
 

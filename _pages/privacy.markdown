@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
+description: "Our privacy policy explains how we protect your personal information when you visit our skin-on-frame kayak building website and contact us for services."
 permalink: /privacy/
 ---
 

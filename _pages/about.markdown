@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: "Learn about my passion for traditional skin-on-frame kayak building and Greenland kayaking techniques. Discover my experience in crafting authentic skin-on-frame kayaks."
 permalink: /about/
 ---
 
