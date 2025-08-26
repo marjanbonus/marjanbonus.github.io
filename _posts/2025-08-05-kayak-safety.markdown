@@ -44,7 +44,7 @@ Skin-on-frame kayaks do not have air chambers, so it's good to have <strong>floa
 I'll make a separate detailed post about packing a Greenland kayak and pull cords, but I wanted to mention this here because the front pull cord <strong>may potentially create a safety problem</strong> since I do not like any type of cords around my legs when I want to exit my kayak! I have tried numerous times to exit from the kayak on land and in very shallow water and have not had any problems. If you are unsure about this for any reason, please remove the front cord. I can always install the front float bag after the frame build, before skinning.
 
 
-### Self rescoue in a skin on frame kayak
+### Self rescue in a skin on frame kayak
 
 [![skin_on_frame_kayak_safety](/assets/images/posts/kayak-safety/kayak-safety-youtube-thumb.jpg)](https://www.youtube.com/watch?v=RgdYQnMf4vI){:target="_blank"}
 
