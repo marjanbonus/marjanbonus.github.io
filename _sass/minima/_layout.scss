@@ -1,3 +1,8 @@
+@use "sass:color";
+@use "fonts";
+@use "defaults";
+@use "mixins";
+
 /**
  * Site header
  */
@@ -5,34 +10,34 @@
   position: fixed;
   z-index: 1;
   width: 100%;
-  background: $background-color;
-  min-height: $spacing-unit * 1.865;
+  background: defaults.$background-color;
+  min-height: defaults.$spacing-unit * 1.865;
 }
 
 .site-title {
-  @include relative-font-size(1.625);
+  @include mixins.relative-font-size(1.625);
   font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  line-height: defaults.$base-line-height * defaults.$base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: defaults.$grey-color-dark;
   }
 }
 
 .site-logo {
   display: block;
   float: left;
-  line-height: $base-line-height * $base-font-size * 2.5;
+  line-height: defaults.$base-line-height * defaults.$base-font-size * 2.5;
 }
 
 .site-nav-menu-icon {
   display: none;
 
-  @include media-query($on-palm) {
+  @include mixins.media-query(defaults.$on-palm) {
     display: block;
     float: right;
     width: 24px;
@@ -49,7 +54,7 @@
       width: 100%;
       height: 100%;
       opacity: 0;
-      background-color: $text-color;
+      background-color: defaults.$text-color;
       -webkit-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
       pointer-events: none;
@@ -59,7 +64,7 @@
       position: relative;
       width: 1.5rem;
       height: 0.25rem;
-      background: $text-color;
+      background: defaults.$text-color;
       margin: auto;
       -webkit-transition: 0.3s;
       transition: 0.3s;
@@ -79,7 +84,7 @@
         left: 0;
         width: 1.5rem;
         height: 0.25rem;
-        background: $text-color;
+        background: defaults.$text-color;
         -webkit-transition: 0.3s;
         transition: 0.3s;
       }
@@ -113,7 +118,7 @@
           transform-origin: 50% 50%;
           top: 0;
           width: 1.5rem;
-          background: $background-color;
+          background: defaults.$background-color;
         }
       }
     }
@@ -122,14 +127,14 @@
 
 .site-nav {
   float: right;
-  line-height: $base-line-height * $base-font-size * 2.50;
+  line-height: defaults.$base-line-height * defaults.$base-font-size * 2.50;
 
   .page-link {
-    font-family: $heading-font-family;
-    @include relative-font-size(0.875);
+    font-family: defaults.$heading-font-family;
+    @include mixins.relative-font-size(0.875);
     font-style: italic;
-    color: $text-color;
-    line-height: $base-line-height;
+    color: defaults.$text-color;
+    line-height: defaults.$base-line-height;
     padding: 18px 0;
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -137,9 +142,9 @@
     }
   }
 
-  @include media-query($on-palm) {
+  @include mixins.media-query(defaults.$on-palm) {
     position: absolute;
-    background-color: $background-color;
+    background-color: defaults.$background-color;
     text-align: right;
     width: 100%;
     top: 54px;
@@ -162,7 +167,7 @@
     .page-link {
       display: block;
       padding: 10px 20px;
-      border-bottom: 1px solid $grey-color-light;
+      border-bottom: 1px solid defaults.$grey-color-light;
 
       &:not(:last-child) {
         margin-right: 0;
@@ -172,7 +177,7 @@
   }
 }
 
-@include media-query($on-laptop) {
+@include mixins.media-query(defaults.$on-laptop) {
   .site-logo img {
     max-width: 180px;
   }
@@ -184,13 +189,13 @@
  * Site footer
  */
 .site-footer {
-  padding: $spacing-unit 0 0;
+  padding: defaults.$spacing-unit 0 0;
 }
 
 .footer-heading {
-  @include relative-font-size(1.125);
-  margin-bottom: calc($spacing-unit / 2);
-  font-family: $base-font-family;
+  @include mixins.relative-font-size(1.125);
+  margin-bottom: calc(defaults.$spacing-unit / 2);
+  font-family: defaults.$base-font-family;
 }
 
 .contact-list,
@@ -202,16 +207,16 @@
 }
 
 .footer-col-wrapper {
-  @include relative-font-size(0.9375);
-  color: $grey-color-dark;
-  margin-left: - calc($spacing-unit / 2);
-  @extend %clearfix;
+  @include mixins.relative-font-size(0.9375);
+  color: defaults.$grey-color-dark;
+  margin-left: - calc(defaults.$spacing-unit / 2);
+  @extend %clearfix !optional;
 }
 
 .footer-col {
   float: left;
-  margin-bottom: calc($spacing-unit / 2);
-  padding-left: calc($spacing-unit / 2);
+  margin-bottom: calc(defaults.$spacing-unit / 2);
+  padding-left: calc(defaults.$spacing-unit / 2);
 
   .social-media-list li {
     &:first-child {
@@ -221,54 +226,54 @@
 }
 
 .footer-col-1 {
-  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
-  width:         calc(25% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(25% - (#{defaults.$spacing-unit} / 2));
+  width:         calc(25% - (#{defaults.$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
-  width:         calc(25% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(25% - (#{defaults.$spacing-unit} / 2));
+  width:         calc(25% - (#{defaults.$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
-  width:         calc(25% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(25% - (#{defaults.$spacing-unit} / 2));
+  width:         calc(25% - (#{defaults.$spacing-unit} / 2));
 }
 
 .footer-col-4 {
-  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
-  width:         calc(25% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(25% - (#{defaults.$spacing-unit} / 2));
+  width:         calc(25% - (#{defaults.$spacing-unit} / 2));
 }
 
 .paddle {
-  padding-bottom: $spacing-unit;
+  padding-bottom: defaults.$spacing-unit;
 }
 
 .copy {
-  @include relative-font-size(0.9375);
-  color: $grey-color-dark;
+  @include mixins.relative-font-size(0.9375);
+  color: defaults.$grey-color-dark;
   text-align: center;
 }
 
-@include media-query($on-laptop) {
+@include mixins.media-query(defaults.$on-laptop) {
   .footer-col-1,
   .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{defaults.$spacing-unit} / 2));
+    width:         calc(50% - (#{defaults.$spacing-unit} / 2));
   }
 
   .footer-col-3,
   .footer-col-4 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{defaults.$spacing-unit} / 2));
+    width:         calc(50% - (#{defaults.$spacing-unit} / 2));
   }
 }
 
-@include media-query($on-palm) {
+@include mixins.media-query(defaults.$on-palm) {
   .footer-col {
     float: none;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(100% - (#{defaults.$spacing-unit} / 2));
+    width:         calc(100% - (#{defaults.$spacing-unit} / 2));
 
     ul:not(.social-media-list) li {
       a {
@@ -314,22 +319,22 @@
 
 .page-heading {
   position: relative;
-  @include relative-font-size(2);
-  color: $background-color;
+  @include mixins.relative-font-size(2);
+  color: defaults.$background-color;
   text-align: center;
   padding-top: 20px;
 
-  @include media-query($on-palm) {
-    @include relative-font-size(1.9);
+  @include mixins.media-query(defaults.$on-palm) {
+    @include mixins.relative-font-size(1.9);
     line-height: 40px;
   }
 }
 
 .post-list-heading {
-  @include relative-font-size(1.375);
+  @include mixins.relative-font-size(1.375);
 
-  @include media-query($on-laptop) {
-    @include relative-font-size(1.25);
+  @include mixins.media-query(defaults.$on-laptop) {
+    @include mixins.relative-font-size(1.25);
   }
 }
 
@@ -341,12 +346,12 @@
   grid-gap: 20px;
 
   a {
-    color: $text-color;
+    color: defaults.$text-color;
   }
 
   > li {
     background-color: #fff;
-    margin-bottom: $spacing-unit;
+    margin-bottom: defaults.$spacing-unit;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 	  -moz-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -363,15 +368,15 @@
 
     .post-meta {
       padding: 0 15px 15px 15px;
-      color: $grey-color-dark;
+      color: defaults.$grey-color-dark;
     }
   }
 
   .post-list-link {
-    color: $text-color;
+    color: defaults.$text-color;
   }
 
-  @include media-query($on-palm) {
+  @include mixins.media-query(defaults.$on-palm) {
     grid-template-columns: repeat(1, 1fr);
     > li {
       max-width: 400px;
@@ -379,7 +384,7 @@
     }
   }
 
-  @include min-media-query($on-palm) {
+  @include mixins.min-media-query(defaults.$on-palm) {
     grid-template-columns: repeat(2, 1fr);
 
     h3 {
@@ -388,23 +393,23 @@
     }
   }
 
-  @include min-media-query($on-laptop) {
+  @include mixins.min-media-query(defaults.$on-laptop) {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 .post-meta {
   margin: 5px 0 0 0;
-  font-size: $small-font-size;
-  color: $grey-color;
+  font-size: defaults.$small-font-size;
+  color: defaults.$grey-color;
 }
 
 .post-link {
   display: block;
-  @include relative-font-size(1.25);
+  @include mixins.relative-font-size(1.25);
 
-  @include media-query($on-laptop) {
-    @include relative-font-size(1.1875);
+  @include mixins.media-query(defaults.$on-laptop) {
+    @include mixins.relative-font-size(1.1875);
   }
 }
 
@@ -418,44 +423,44 @@
  * Posts
  */
 .post-header {
-  margin-bottom: $spacing-unit;
+  margin-bottom: defaults.$spacing-unit;
 }
 
 .post-title {
-  @include relative-font-size(1.5);
+  @include mixins.relative-font-size(1.5);
   letter-spacing: -1px;
   line-height: 1;
 
-  @include media-query($on-laptop) {
-    @include relative-font-size(1.375);
+  @include mixins.media-query(defaults.$on-laptop) {
+    @include mixins.relative-font-size(1.375);
   }
 }
 
 .post-content {
-  margin: $spacing-unit auto;
+  margin: defaults.$spacing-unit auto;
   max-width: 700px;
 
   h2 {
-    @include relative-font-size(1.625);
+    @include mixins.relative-font-size(1.625);
 
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.375);
+    @include mixins.media-query(defaults.$on-laptop) {
+      @include mixins.relative-font-size(1.375);
     }
   }
 
   h3 {
-    @include relative-font-size(1.425);
+    @include mixins.relative-font-size(1.425);
 
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.175);
+    @include mixins.media-query(defaults.$on-laptop) {
+      @include mixins.relative-font-size(1.175);
     }
   }
 
   h4 {
-    @include relative-font-size(1.25);
+    @include mixins.relative-font-size(1.25);
 
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.125);
+    @include mixins.media-query(defaults.$on-laptop) {
+      @include mixins.relative-font-size(1.125);
     }
   }
 
@@ -472,7 +477,7 @@
       text-align: center;
     }
 
-    @include min-media-query($on-palm) {
+    @include mixins.min-media-query(defaults.$on-palm) {
       &.one {
         grid-template-columns: repeat(1, 1fr);
       }
@@ -503,7 +508,7 @@
     p {
       margin: 0 auto;
       max-width: 1200px;
-      background: $background-color;
+      background: defaults.$background-color;
 
       &:first-child {
         grid-column: span 3;
@@ -512,12 +517,12 @@
       .title {
         box-sizing: border-box;
         padding: 5px;
-        color: $text-color;
+        color: defaults.$text-color;
         font-weight: bold;
       }
     }
 
-    @include media-query($on-laptop) {
+    @include mixins.media-query(defaults.$on-laptop) {
       grid-template-columns: repeat(2, 1fr);
 
       p {
@@ -574,7 +579,7 @@
         grid-column: 8/13;
       }
 
-      @include media-query($on-laptop) {
+      @include mixins.media-query(defaults.$on-laptop) {
         grid-column: 1/13!important;
 
         &:first-child {
@@ -592,16 +597,16 @@
   margin: 40px 0;
   align-items: start;
 
-  @include min-media-query($on-laptop) {
+  @include mixins.min-media-query(defaults.$on-laptop) {
     margin: 60px 0;
   }
 
   h2 {
-    @include media-query($on-laptop) {
+    @include mixins.media-query(defaults.$on-laptop) {
       grid-column: 1/13;
       text-align: center;
     }
-    @include min-media-query($on-laptop) {
+    @include mixins.min-media-query(defaults.$on-laptop) {
       grid-row: 1;
       grid-column: 8/13;
       align-self: start;
@@ -612,7 +617,7 @@
     grid-column: 1/13;
     width: 100%;
 
-    @include min-media-query($on-laptop) {
+    @include mixins.min-media-query(defaults.$on-laptop) {
       &:first-child {
         grid-column: 1/7;
       }
@@ -623,7 +628,7 @@
         margin-top: 80px;
       }
     }
-    @include media-query($on-laptop) {
+    @include mixins.media-query(defaults.$on-laptop) {
       &:first-child {
         margin-bottom: 20px;
       }

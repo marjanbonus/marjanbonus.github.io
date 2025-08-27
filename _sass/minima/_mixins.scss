@@ -1,0 +1,19 @@
+@use "defaults";
+
+// Mixins
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin min-media-query($device) {
+  @media screen and (min-width: calc($device + 1px)) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: defaults.$base-font-size * $ratio;
+}

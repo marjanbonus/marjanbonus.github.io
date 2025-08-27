@@ -1,0 +1,27 @@
+@use "sass:color";
+
+// Define defaults for each variable.
+
+$base-font-family: "Montserrat" !default;
+$heading-font-family: "Good Times" !default;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+$text-color:       #111 !default;
+$background-color: #f8f8f8 !default;
+$brand-color:      #1a60bb !default;
+
+$grey-color:       #828282 !default;
+$grey-color-light: color.adjust($grey-color, $lightness: 40%, $space: hsl) !default;
+$grey-color-dark:  color.adjust($grey-color, $lightness: -25%, $space: hsl) !default;
+
+$table-text-align: left !default;
+
+// Width of the content area
+$content-width:    1920px !default;
+$on-palm:          640px !default;
+$on-laptop:        800px !default;
