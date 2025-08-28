@@ -1,6 +1,5 @@
 const menuIcon = document.querySelector('.site-nav-menu-icon');
 const siteNav = document.querySelector('.site-nav');
-const pageContent = document.querySelector('.page-content');
 
 menuIcon.addEventListener('click', e => {
     siteNav.classList.remove('hidden');
