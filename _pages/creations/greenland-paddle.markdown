@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Greenland Paddle
-permalink: /creations/greenland_paddle
+permalink: /creations/greenland-paddle
 description: Traditional Greenland paddle with narrow blade design for reduced fatigue and good control. Perfect for sea kayaking, rolling, and extended paddling sessions.
 ---
 

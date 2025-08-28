@@ -39,4 +39,4 @@ The inner coaming length is usually slightly bigger than the width. Compared to 
 
 <strong>Interestingly</strong>, Greenland hunting kayaks often had coamings <strong>slightly offset</strong> to the right or left depending on whether the hunter was right-handed or left-handed, as a centered coaming was a poor working position for the hunter (H. C. Petersen, 1986).
 
-More coaming details can be found in [creations]({{ site.baseurl }}{% link _pages/creations/greenland_cockpit_coaming.markdown %}) part.
+More coaming details can be found in [creations]({{ site.baseurl }}{% link _pages/creations/greenland-cockpit-coaming.markdown %}) part.

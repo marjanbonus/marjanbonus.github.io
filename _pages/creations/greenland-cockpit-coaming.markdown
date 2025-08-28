@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Greenland Cockpit Coaming
-permalink: /creations/greenland_cockpit_coaming
+permalink: /creations/greenland-cockpit-coaming
 description: Handcrafted steam-bent Greenland cockpit coaming with dimensions very similar to the original to ensure good thigh contact with the Masik
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: West Greenland Kayak
-permalink: /creations/west_greenland_kayak
+permalink: /creations/west-greenland-kayak
 description: Authentic West Greenland kayak designed for sea kayaking enthusiasts, featuring traditional hard chine hull design. Superior secondary stability and good primary stability due to low center of gravity seating position and shallow V-hull design.
 ---
 

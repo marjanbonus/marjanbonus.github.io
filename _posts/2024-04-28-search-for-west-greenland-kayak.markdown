@@ -116,7 +116,7 @@ As I paddle mostly on the river Drava and lakes, I decided to go with a bit less
 This kayak ended up being 15kg after skinning and coating. <strong>Weight</strong> is something I didn't pay attention to on this build, as I was more focused on kayak shape. Later, I started to use European silver fir/Norway spruce for longitudinals, and with correct sizing I managed to get a kayak (LOA 520cm and 53cm beam) of 12kg. You could say I'm satisfied now. :)
 I will probably cover the skinning and coating part in my next blogs.
 
-West Greenland kayak <strong>details</strong> can be found in [creations]({{ site.baseurl }}{% link _pages/creations/west_greenland_kayak.markdown %}) part.
+West Greenland kayak <strong>details</strong> can be found in [creations]({{ site.baseurl }}{% link _pages/creations/west-greenland-kayak.markdown %}) part.
 
 [![frame](/assets/images/posts/greenland-kayak/finished/01_frame_s.jpg)](/assets/images/posts/greenland-kayak/finished/01_frame.jpg){:data-fslightbox="gallery15"}[![frame](/assets/images/posts/greenland-kayak/finished/02_frame_s.jpg)](/assets/images/posts/greenland-kayak/finished/02_frame.jpg){:data-fslightbox="gallery15"}[![frame](/assets/images/posts/greenland-kayak/finished/03_frame_s.jpg)](/assets/images/posts/greenland-kayak/finished/03_frame.jpg){:data-fslightbox="gallery15"}
 {: .post-gallery .three}
