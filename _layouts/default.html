@@ -26,7 +26,7 @@
       {%- if page.url == '/' -%}
 
       {%- if site.posts.size > 0 -%}
-      <div class="wrapper">
+      <div class="wrapper home-blog">
         <h2>Recent</h2>
         <ul class="post-list home">
           {%- for post in site.posts limit:3 -%}

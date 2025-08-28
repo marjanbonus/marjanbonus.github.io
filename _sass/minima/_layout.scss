@@ -692,6 +692,33 @@
       }
     }
   }
+
+  .home-banner {
+    display: none;
+  }
+
+  .home-banner-mobile {
+    display: block;
+    text-align: center;
+  }
+
+  @include mixins.min-media-query(defaults.$on-palm) {
+    .home-banner {
+      display: block;
+    }
+    .home-banner-mobile {
+      display: none;
+    }
+  }
+
+}
+
+.home-blog {
+  @include mixins.media-query(defaults.$on-laptop) {
+    h2 {
+      text-align: center;
+    }
+  }
 }
 
 #contactForm {
