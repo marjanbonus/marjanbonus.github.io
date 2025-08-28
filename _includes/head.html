@@ -14,10 +14,6 @@
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" media="all" onload="this.onload=null;this.media='all'">
   <noscript><link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}"></noscript>
 
-  {%- if page.url == '/' -%}
-  <link rel="preload" fetchpriority="high" as="image" href="/assets/images/covers/home_01.webp" type="image/webp">
-  {%- endif -%}
-
   <link rel="icon" type="image/png" href="{{ "/favicon.png" | relative_url }}">
 
   {%- feed_meta -%}
