@@ -8,7 +8,7 @@
  */
 .site-header {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   background: defaults.$background-color;
   min-height: defaults.$spacing-unit * 1.865;
@@ -149,7 +149,7 @@
     width: 100%;
     top: 54px;
     left: 0;
-    z-index: 1;
+    z-index: 2;
     opacity: 0;
     -webkit-transition: opacity 0.2s;
     transition: opacity 0.2s;
