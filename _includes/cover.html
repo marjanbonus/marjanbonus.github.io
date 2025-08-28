@@ -10,7 +10,7 @@
     {%- elsif page.url == '/blog/' or page.url contains '/category' -%}
     {%- assign cover_path = site.blog_cover -%}
     {%- else -%}
-    {%- assign cover_path = site.pages_cover -%}
+    {%- assign cover_path = site.blog_cover -%}
     {%- endif-%}
 
     <div class="img" style="background-image:url('{{cover_path}}');"></div>
