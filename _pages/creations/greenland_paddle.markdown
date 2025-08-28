@@ -2,12 +2,13 @@
 layout: page
 title: Greenland Paddle
 permalink: /creations/greenland_paddle
-description: Greenland paddle
+description: Traditional Greenland paddle with narrow blade design for reduced fatigue and good control. Perfect for sea kayaking, rolling, and extended paddling sessions.
 ---
 
 [![greenland_paddle_01](/assets/images/creations/paddle/paddle_01_s.jpg)](/assets/images/creations/paddle/paddle_01.jpg){:data-fslightbox="gallery"}[![greenland_paddle_02](/assets/images/creations/paddle/paddle_02_s.jpg)](/assets/images/creations/paddle/paddle_02.jpg){:data-fslightbox="gallery"}[![greenland_paddle_03](/assets/images/creations/paddle/paddle_03_s.jpg)](/assets/images/creations/paddle/paddle_03.jpg){:data-fslightbox="gallery"}[![greenland_paddle_04](/assets/images/creations/paddle/paddle_04_s.jpg)](/assets/images/creations/paddle/paddle_04.jpg){:data-fslightbox="gallery"}[![greenland_paddle_05](/assets/images/creations/paddle/paddle_05_s.jpg)](/assets/images/creations/paddle/paddle_05.jpg){:data-fslightbox="gallery"}
 
 **Greenland Paddle**<br />
+_Traditional Greenland paddle with narrow blade design for reduced fatigue and good control. Perfect for sea kayaking, rolling, and extended paddling sessions._<br />
 -- Built from Sprouce or European lime<br />
 **Paddle dimensions:**<br />
 **Small**

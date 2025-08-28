@@ -14,7 +14,3 @@ menuIcon.addEventListener('click', e => {
     }
 
 });
-
-document.addEventListener('DOMContentLoaded', function () {
-    pageContent.classList.add('loaded');
-}, false);

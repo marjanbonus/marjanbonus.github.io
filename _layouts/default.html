@@ -24,6 +24,18 @@
       </div>
 
       {%- if page.url == '/' -%}
+
+      {%- if site.posts.size > 0 -%}
+      <div class="wrapper">
+        <h2>Recent</h2>
+        <ul class="post-list home">
+          {%- for post in site.posts limit:3 -%}
+          {%- include post-item.html -%}
+          {%- endfor -%}
+        </ul>
+      </div>
+      {%- endif -%}
+
       <div class="cover home">
         <div class="img" style="background-image:url('/assets/images/covers/cover_01.webp');"></div>
         <div class="container cover">

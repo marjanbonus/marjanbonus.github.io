@@ -4,7 +4,7 @@ title:  "Search for West Greenland Kayak"
 description: "Building a West Greenland kayak by studying historical Greenlandic hunting kayak examples and exploring traditional Inuit craftsmanship and construction techniques."
 date:   2024-04-28 18:20:43 +0100
 categories: workshop
-image: /assets/images/posts_list/west_greenland_kayak.jpg
+image: /assets/images/posts_list/west_greenland_kayak.webp
 ---
 Greenland Kayak. Built by indigenous people of Greenland to hunt and survive in rough sea conditions.
 

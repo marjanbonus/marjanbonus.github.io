@@ -1,20 +1,24 @@
 <li>
-    <a href="/category/{{ post.categories }}" class="category">{{ post.categories }}</a>
-    <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-        </a>
-    </h3>
+    <div class="item-top">
+      <a href="/category/{{ post.categories }}" class="category">{{ post.categories }}</a>
+      <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+          </a>
+      </h3>
+    </div>  
     {%- if post.image -%}
     <a class="post-link" href="{{ post.url | relative_url }}">
       <img src="{{ post.image | relative_url }}" alt="posts_list_image">
     </a>
     {%- endif -%}
-    {%- if site.show_excerpts -%}
-    <a class="post-list-link" href="{{ post.url | relative_url }}">
-    <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 110 }}</p>
-    </a>        
-    {%- endif -%}
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    <p class="post-meta">{{ post.date | date: date_format }}</p>
+    <div class="item-bottom">
+      {%- if site.show_excerpts -%}
+      <a class="post-list-link" href="{{ post.url | relative_url }}">
+      <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 110 }}</p>
+      </a>        
+      {%- endif -%}
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <p class="post-meta">{{ post.date | date: date_format }}</p>
+    </div>
 </li>

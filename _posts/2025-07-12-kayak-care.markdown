@@ -4,7 +4,7 @@ title:  "Skin on frame kayak care"
 description: "Essential maintenance tips for skin on frame kayaks. With proper storage and maintenance you can extend your SOF kayak's lifespan and keep it seaworthy for years of paddling adventures."
 date:   2025-07-12 10:20:43 +0100
 categories: other
-image: /assets/images/posts_list/care.jpg
+image: /assets/images/posts_list/care.webp
 ---
 It's worth mentioning that every type of urethane, even UV-resistant ones, will degrade in the sun with prolonged exposure. The same goes for <strong>composite</strong> or <strong>plastic</strong> kayaks, plus they can deform too. Keep your kayak <strong>out of the sun</strong> in a <strong>dry place</strong> when you are not paddling it, and this will prolong its life. <strong>A garage</strong> would be a nice place. <strong>A backyard</strong> would be fine too, but putting some type of roof over it would be good. It's good to leave the cockpit <strong>open</strong> so air can circulate through it.
 

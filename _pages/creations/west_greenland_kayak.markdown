@@ -2,12 +2,13 @@
 layout: page
 title: West Greenland Kayak
 permalink: /creations/west_greenland_kayak
-description: West Greenland Kayak
+description: Authentic West Greenland kayak designed for sea kayaking enthusiasts, featuring traditional hard chine hull design. Superior secondary stability and good primary stability due to low center of gravity seating position and shallow V-hull design.
 ---
 
 [![greenland_kayak_01](/assets/images/creations/wg/wg_01_s.jpg)](/assets/images/creations/wg/wg_01.jpg){:data-fslightbox="gallery"}[![greenland_kayak_03](/assets/images/creations/wg/wg_03_s.jpg)](/assets/images/creations/wg/wg_03.jpg){:data-fslightbox="gallery"}[![greenland_kayak_02](/assets/images/creations/wg/wg_02_s.jpg)](/assets/images/creations/wg/wg_02.jpg){:data-fslightbox="gallery"}[![greenland_kayak_04](/assets/images/creations/wg/wg_04_s.jpg)](/assets/images/creations/wg/wg_04.jpg){:data-fslightbox="gallery"}[![greenland_kayak_05](/assets/images/creations/wg/wg_05_s.jpg)](/assets/images/creations/wg/wg_05.jpg){:data-fslightbox="gallery"}[![greenland_kayak_06](/assets/images/creations/wg/wg_06_s.jpg)](/assets/images/creations/wg/wg_06.jpg){:data-fslightbox="gallery"}[![greenland_kayak_07](/assets/images/creations/wg/wg_07_s.jpg)](/assets/images/creations/wg/wg_07.jpg){:data-fslightbox="gallery"}[![greenland_kayak_08](/assets/images/creations/wg/wg_08_s.jpg)](/assets/images/creations/wg/wg_08.jpg){:data-fslightbox="gallery"}[![greenland_kayak_09](/assets/images/creations/wg/wg_09_s.jpg)](/assets/images/creations/wg/wg_09.jpg){:data-fslightbox="gallery"}
 
 **West Greenland Kayak**<br />
+_Authentic West Greenland kayak designed for sea kayaking enthusiasts, featuring traditional hard chine hull design. Superior secondary stability and good primary stability due to low center of gravity seating position and shallow V-hull design._<br />
 **Specifications:**<br />
 ![wg_spec](/assets/images/creations/wg/wg_spec.jpg)
 _* Depths are measured without coaming height (additional 3cm)_<br />

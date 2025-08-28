@@ -7,7 +7,7 @@
     
     {%- if page.url == '/' -%}
     {% assign cover_path = site.home_cover %}
-    {%- elsif page.url == '/blog/' or page.url contains '/workshop/' -%}
+    {%- elsif page.url == '/blog/' or page.url contains '/category' -%}
     {%- assign cover_path = site.blog_cover -%}
     {%- else -%}
     {%- assign cover_path = site.pages_cover -%}

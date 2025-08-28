@@ -4,7 +4,7 @@ title:  "Making a Greenland Cockpit Coaming"
 description: "Making a Greenland cockpit coaming from steam-bent Slavonian oak"
 date:   2024-04-27 21:48:43 +0100
 categories: workshop
-image: /assets/images/posts_list/greenland_coaming.jpg
+image: /assets/images/posts_list/greenland_coaming.webp
 ---
 A strong wooden hoop that forms the kayak cockpit. The Greenland coaming is not fastened to the kayak frame but laced with the amiq (skin) through coaming lacing holes.
 

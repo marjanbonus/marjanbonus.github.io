@@ -4,7 +4,7 @@ title:  "Greenland kayak purpose"
 description: "A little bit of history and main purpose of the skin-on-frame Greenland hunting kayak."
 date:   2025-06-10 08:20:43 +0100
 categories: other
-image: /assets/images/posts_list/purpose.jpg
+image: /assets/images/posts_list/purpose.webp
 ---
 Qajaq. Greenland kayaks are believed to be around 4,000 years old. The main purpose of traditional Greenlandic kayaks was hunting. It was often called an extension of the hunter's body, which enabled him to silently approach his prey with a harpoon. Possible <strong>the oldest</strong> museum example, that I found in 'Kayaks of Greenland' book by Harvey Golden, dates back to circa pre 1607. (Schiffergesellschaft, Lubeck)
 

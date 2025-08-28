@@ -4,7 +4,7 @@ title:  "The skin - 'Amiq'"
 description: "From traditional sealskin and canvas to more modern materials such as polyester and polyamide. In search of the ideal skin-on-frame kayak fabric with optimal durability and abrasion resistance."
 date:   2024-10-02 18:20:43 +0100
 categories: other
-image: /assets/images/posts_list/kayak_skin.jpg
+image: /assets/images/posts_list/kayak_skin.webp
 ---
 Back in the old days, the covering of Greenland kayaks was mostly done with seal skin. H.C. Petersen writes in his 'Instruction in Kayak Building': "...when the seal population of Greenland began to decline at the beginning of the present century, it became difficult for many hunters to get hold of the required number of suitable kayak-skins. More and more hunters have therefore started to cover their kayaks with canvas or duck."
 

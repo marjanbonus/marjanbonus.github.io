@@ -4,7 +4,7 @@ title:  "Kayak Safety and self-rescue"
 description: "I usually like to come back alive from kayaking. It goes without saying that safety is paramount here. Kayak safety tips and self-rescue for West Greenland skin-on-frame kayaks"
 date:   2025-08-05 08:20:43 +0100
 categories: on-the-water
-image: /assets/images/posts_list/safety.jpg
+image: /assets/images/posts_list/safety.webp
 ---
 I usually like to come back alive from kayaking. It goes without saying that safety is paramount here. 
 
