@@ -28,7 +28,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Skin on frame kayaks
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://manboat.eu" # the base hostname & protocol for your site, e.g. http://example.com
-enforce_ssl: manboat.eu
 facebook_username: manboatdoteu
 instagram_username: manboatdoteu
 youtube_username: manboatdoteu
