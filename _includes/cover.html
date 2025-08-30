@@ -6,14 +6,12 @@
 <div class="cover {{home_class}}">
     
     {%- if page.url == '/' -%}
-    {% assign cover_path = site.home_cover %}
+    <div class="img" style="background-image:url('{{site.home_cover}}');"></div>
     {%- elsif page.url == '/blog/' or page.url contains '/category' -%}
-    {%- assign cover_path = site.blog_cover -%}
+    <div class="img" style="background-image:url('{{site.blog_cover}}');"></div>
     {%- else -%}
-    {%- assign cover_path = site.blog_cover -%}
+    <div class="img" style="background-image:url('{{site.blog_cover}}');"></div>
     {%- endif-%}
-
-    <div class="img" style="background-image:url('{{cover_path}}');"></div>
     
     {%- if page.url == '/' -%}
     <div class="container cover">
@@ -33,3 +31,11 @@
 
 
   </div>
+
+  <style>
+    @media only screen and (max-width: 800px) {
+      .page-content .cover.home:first-child .img{
+        background-image: url('/assets/images/covers/home_mobile.webp')!important;
+      }
+    }
+  </style>
