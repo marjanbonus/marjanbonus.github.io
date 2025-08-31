@@ -6,7 +6,7 @@
 <div class="cover {{home_class}}">
     
     {%- if page.url == '/' -%}
-    <div class="img" style="background-image:url('{{site.home_cover}}');"></div>
+    <div class="img"></div>
     {%- elsif page.url == '/blog/' or page.url contains '/category' -%}
     <div class="img" style="background-image:url('{{site.blog_cover}}');"></div>
     {%- else -%}
@@ -35,7 +35,12 @@
   <style>
     @media only screen and (max-width: 800px) {
       .page-content .cover.home:first-child .img{
-        background-image: url('/assets/images/covers/home_mobile.webp')!important;
+        background-image: url('/assets/images/covers/home_mobile.webp');
+      }
+    }
+    @media only screen and (min-width: 801px) {
+      .page-content .cover.home:first-child .img{
+        background-image: url('/assets/images/covers/home.webp');
       }
     }
   </style>
