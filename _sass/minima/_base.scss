@@ -328,6 +328,23 @@ table {
   }
 }
 
+.page-content.home {
+  .container.home {
+    background-color: defaults.$background-color;
+    padding-top: 2px;
+  }
+  & > .cover.home {
+    img {
+      position: fixed;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+  }
+}
+
 .hover-img-effect {
   overflow: hidden;
   @include mixins.min-media-query(defaults.$on-laptop) {

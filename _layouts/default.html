@@ -8,43 +8,10 @@
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
-
       {%- include cover.html -%}
-
       <div class="wrapper ">
-        {%- if page.url == '/' -%}
-          <div class="home grid">
-        {%- endif -%}
-
         {{ content }}
-
-        {%- if page.url == '/' -%}
-          </div>
-        {%- endif -%}
       </div>
-
-      {%- if page.url == '/' -%}
-
-      {%- if site.posts.size > 0 -%}
-      <div class="wrapper home-blog">
-        <h2>Recent</h2>
-        <ul class="post-list home">
-          {%- for post in site.posts limit:3 -%}
-          {%- include post-item.html -%}
-          {%- endfor -%}
-        </ul>
-      </div>
-      {%- endif -%}
-
-      <div class="cover home">
-        <div class="img" style="background-image:url('/assets/images/covers/cover_01.webp');"></div>
-        <div class="container cover">
-          <h3 class="page-heading">Why Man Boat?</h3>
-          <p>Kayak. Originally developed by the indigenous Inuit, Yup'ik and Aleut people. The Inuktitut word 'qayaq' means "hunter's boat" or "man's boat".</p>
-        </div>
-      </div>
-      {%- endif -%}
-
     </main>
 
     {%- include footer.html -%}
