@@ -3,7 +3,7 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-logo" href="{{ "/" | relative_url }}">
+    <a class="site-logo" href="{{ "/" | relative_url }}" aria-label="logo">
       <div class="logo-image" style="color:#000;">
         <svg viewBox="0 0 92.690048 14.85451" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <g transform="translate(-59.397024,-120.92562)" fill="currentColor">
