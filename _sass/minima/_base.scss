@@ -337,11 +337,19 @@ table {
     img {
       position: fixed;
       object-fit: cover;
+      bottom: 0;
       width: 100%;
       height: 100%;
       z-index: -1;
     }
-
+  }
+  .home.bottom .img {
+    @include mixins.media-query(defaults.$on-laptop) {
+      background-image:url('./images/covers/cover_bottom_mobile.webp');
+    }
+    @include mixins.min-media-query(defaults.$on-laptop) {
+      background-image:url('./images/covers/cover_bottom.webp');
+    }
   }
 }
 
