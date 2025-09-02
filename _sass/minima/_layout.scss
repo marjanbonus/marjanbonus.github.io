@@ -31,8 +31,24 @@
 .site-logo {
   display: block;
   float: left;
-  line-height: defaults.$base-line-height * defaults.$base-font-size * 2.5;
+  width: 220px;
+
+  .logo-image {
+    line-height: 0;
+    padding: 13px 0;
+  }
+
+  @include mixins.media-query(defaults.$on-laptop) {
+    max-width: 180px;
+
+    & .logo-image {
+      padding: 16px 0;
+      max-width: 180px;
+      width: 180px;
+    }
+  }
 }
+
 
 .site-nav-menu-icon {
   display: none;
@@ -176,14 +192,6 @@
     }
   }
 }
-
-@include mixins.media-query(defaults.$on-laptop) {
-  .site-logo img {
-    max-width: 180px;
-  }
-}
-
-
 
 /**
  * Site footer
