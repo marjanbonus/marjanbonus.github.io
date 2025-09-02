@@ -38,6 +38,8 @@ cover_paragraph: "A unique type of watercraft built for rough sea conditions and
 blog_cover: '/assets/images/covers/kayak_frame_bottom.webp'
 pages_cover: '/assets/images/covers/kayak_frame_top.webp'
 show_excerpts: true
+# Version number
+build: "00000001"
 
 kramdown:
   hard_wrap: true
@@ -65,7 +67,6 @@ terms_pages:
 
 service_pages:
   - _pages/contact.markdown
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
