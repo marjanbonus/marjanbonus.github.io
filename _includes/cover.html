@@ -7,8 +7,9 @@
     
     {%- if page.url == '/' -%}
     <picture>
+      <source srcset="/assets/images/covers/home_top_s_op.webp" type="image/webp" media="(max-width: 640px)">
+      <source srcset="/assets/images/covers/home_top_m_op.webp" type="image/webp" media="(min-width: 641px) and (max-width: 1023px)">
       <source srcset="/assets/images/covers/home-op.webp" type="image/webp" media="(min-width: 1024px)">
-      <source srcset="/assets/images/covers/home_mobile-op.webp" type="image/webp" media="(max-width: 1023px)">
       <img src="/assets/images/covers/home-op.webp" alt="home top cover">
     </picture>
     {%- elsif page.url == '/blog/' or page.url contains '/category' -%}
