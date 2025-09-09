@@ -39,7 +39,7 @@ blog_cover: '/assets/images/covers/kayak_frame_bottom.webp'
 pages_cover: '/assets/images/covers/kayak_frame_top.webp'
 show_excerpts: true
 # Version number
-build: "00000005"
+build: "00000006"
 
 kramdown:
   hard_wrap: true
