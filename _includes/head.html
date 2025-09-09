@@ -9,9 +9,10 @@
   <link rel="preload" href="{{ '/assets/fonts/Montserrat-Regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 
   <!-- <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}"> -->
-  <link rel="preload" href="/assets/main.{{site.build}}.css" as="style">
-  <link rel="stylesheet" href="/assets/main.{{site.build}}.css" media="all" onload="this.onload=null;this.media='all'">
-  <noscript><link rel="stylesheet" href="/assets/main.{{site.build}}.css"></noscript>
+  {% assign cacheBust = site.time | date:'?v=%s' %}
+  <link rel="preload" href="{{ '/assets/main.css' | relative_url | append: cacheBust }}" as="style">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url | append: cacheBust }}" media="all" onload="this.onload=null;this.media='all'">
+  <noscript><link rel="stylesheet" href="{{ '/assets/main.css' | relative_url | append: cacheBust }}"></noscript>
 
   <link rel="icon" type="image/png" href="{{ "/favicon.png" | relative_url }}">
 

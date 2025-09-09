@@ -298,6 +298,7 @@ table {
 
     &.home {
       min-height: 100vh;
+      display: block;
       .img {
         background-attachment: fixed;
         height: 100%;
