@@ -42,5 +42,5 @@ After attaching/sewing the coaming to the skin, I'll need <strong>one more pass<
 [![rope_end_melt](/assets/images/posts/greenland-coaming-update/rope_end_melt_s.webp)](/assets/images/posts/greenland-coaming-update/rope_end_melt.webp){:data-fslightbox="gallery4"}[![rope_lip](/assets/images/posts/greenland-coaming-update/rope_lip_s.webp)](/assets/images/posts/greenland-coaming-update/rope_lip.webp){:data-fslightbox="gallery4"}
 {: .post-gallery .two}
 
-I must say it looks nice to me, so I know what I'll use in my next build for a rope lip. ;)
+I must say it looks nice to me, so I know what I'll use in my next kayak build for a coaming lip. ;)
 More coaming details can be found in [creations]({{ site.baseurl }}{% link _pages/creations/greenland-cockpit-coaming.markdown %}) section.
