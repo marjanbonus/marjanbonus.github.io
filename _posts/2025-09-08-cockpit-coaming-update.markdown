@@ -17,14 +17,14 @@ Additionally, I needed a <strong>keyhole cockpit</strong> for my new creations, 
 [![greenland_coaming_form](/assets/images/posts/greenland-coaming-update/greenland_coaming_form_s.webp)](/assets/images/posts/greenland-coaming-update/greenland_coaming_form.webp){:data-fslightbox="gallery1"}[![coamings](/assets/images/posts/greenland-coaming-update/coamings_s.webp)](/assets/images/posts/greenland-coaming-update/coamings.webp){:data-fslightbox="gallery1"}
 {: .post-gallery .two}
 
-## A4 stainless steel screws instead of 'bronze' screws
+### A4 stainless steel screws instead of 'bronze' screws
 
 After <strong>three weeks of testing</strong> at sea, I left one of my kayaks in the sea for the <strong>whole time</strong>, tied to shore, just to see what would happen. The A4 stainless steel screws at the stem protections looked like new ones, but I did not like what I saw on my cockpit coaming 'bronze' screws. I like patina, but I noticed some small spots of rust too, so is it true bronze? Probably some thin layer of bronze - bronze plated... whatever. I decided to <strong>switch to A4 stainless steel screws</strong>. Darker colors look nicer to me with oak wood, but this is not bad either, and more importantly, I know it will last.
 
 [![greenland_coaming_inox_a4_screws](/assets/images/posts/greenland-coaming-update/coaming_inox_a4_screws_s.webp)](/assets/images/posts/greenland-coaming-update/coaming_inox_a4_screws.webp){:data-fslightbox="gallery2"}
 {: .post-gallery .one}
 
-## Cockpit coaming rope lip
+### Cockpit coaming rope lip
 
 Additionally, I've decided to try a somewhat different cockpit edge/lip: a <strong>rope lip</strong>. I'm not reinventing the wheel here either.
 
