@@ -20,10 +20,10 @@ _Decking oil_<br />
 **Skin**
 _Polyamide (Nylon 66) woven fabric with durable rib weave (weight: 270 g/m²)_<br />
 **Coating:**
-_Marine grade urethane alkyd varnish with UV filters and good balance between hardness and flexibility._<br />
+_Fully aliphatic polyurethane transparent coating with excellent abrasion resistance and great flexibility. UV-resistant and non-yellowing finish._<br />
 _With earth pigments mixed in first two coats_<br />
 **Available pigments:**
-_Umber burnt, Umber red - brown, Umber greenish - dark, Sienna red - Italy, Golden ochre - Italy, Ochre orange - Provence_<br />
+_Golden ochre - Italy, Ochre orange - Provence, Umber greenish - dark, Sienna red - Italy, Umber red - brown, Umber burnt, Umber dark - Ardennen_<br />
 **Deck rigging**
 _Deck lines & toggles: strong polyester line (5mm) with toggles built from oak (protected with tung oil)_<br />
 **Stem protection**

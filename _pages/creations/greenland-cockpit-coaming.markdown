@@ -17,7 +17,8 @@ _Handcrafted steam-bent Greenland cockpit coaming with dimensions very similar t
 **Coaming stock dimensions**
 _Height: 3cm_
 _Thickness: 1cm_
-_Coaming edge: 1cm x 1cm_<br />
+_Coaming oak edge: 1cm x 1cm_
+_Coaming rope lip thickness: 1cm_<br />
 **Coaming inner dimensions:**
 _Small: 39cm x 45.5cm_
 _Medium: 41cm x 47.5cm_

@@ -314,6 +314,12 @@ table {
           padding: 0 20px;
           margin: 0 auto;
           text-align: center;
+          &.main-desc {
+            a {
+              color: defaults.$background-color;
+              font-weight: 600;
+            }
+          }
         }
       }
     }

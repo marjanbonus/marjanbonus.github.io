@@ -25,8 +25,8 @@
     {%- if page.title -%}
       <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
-    {%- if page.url == '/' and site.cover_paragraph -%}
-        <p>{{ site.cover_paragraph }}</p>
+    {%- if page.url == '/' -%}
+        <p class="main-desc">A <a href="{{site.baseurl}}/workshop/2024/04/28/search-for-west-greenland-kayak.html">unique type of watercraft</a> built for rough sea conditions and hunting. It's hard to call them replicas, but Man Boat builds a very similar type of kayak.</p>
     {%- endif -%}
 
     {%- if page.url == '/' -%}
