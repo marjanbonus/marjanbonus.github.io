@@ -2,6 +2,52 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {%- if page.url == '/' -%}
+  <!-- Structured data for Man Boat -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Man Boat",
+    "url": "https://manboat.eu",
+    "logo": "https://manboat.eu/assets/images/manboat-logo.svg",
+    "image": [
+      "https://manboat.eu/assets/images/covers/manboat_banner.webp",
+      "https://manboat.eu/assets/images/creations/wg/manboat_west_greenland_03.webp",
+      "https://manboat.eu/assets/images/creations/wg/manboat_west_greenland_08.webp",
+      "https://manboat.eu/assets/images/creations/wg/manboat_west_greenland_04.webp"
+    ],
+    "sameAs": [
+      "https://instagram.com/manboatdoteu",
+      "https://www.facebook.com/@manboatdoteu",
+      "https://youtube.com/@manboatdoteu"
+    ],
+    "department": [
+      { "@type": "WebPage", "name": "Blog", "url": "https://manboat.eu/blog" },
+      { "@type": "WebPage", "name": "Creations", "url": "https://manboat.eu/creations" },
+      { "@type": "WebPage", "name": "About", "url": "https://manboat.eu/about" },
+      { "@type": "WebPage", "name": "Contact", "url": "https://manboat.eu/contact" }
+    ]
+  }
+  </script>
+
+  <!-- Schema for website & site search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Man Boat",
+    "url": "https://manboat.eu",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://manboat.eu/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  {%- endif -%}
+
   {%- seo -%}
   
   <link rel="preload" as="image" href="/assets/images/covers/home_top_s_op.webp" fetchpriority="high" media="(max-width: 640px)">
