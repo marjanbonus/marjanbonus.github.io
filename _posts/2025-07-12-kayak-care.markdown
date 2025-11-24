@@ -42,6 +42,9 @@ The urethane coating that I use at the moment is nice, UV-resistant, and has goo
 
 Greenlanders reskinned their kayaks every year or two. The seal skin was rotting, so it was needed. With modern materials of today, the situation is much different. In the end, once the skin is all beaten up, with reskinning of the kayak, you get a new kayak. That is something you can <strong>do yourself</strong>, and I'll make a separate post about it.
 
+*<strong>Update</strong>*
+I finally found a great aliphatic urethane coating, so you may want to check out my '[New skin on frame coating day]({{ site.baseurl }}{% link _posts/2025-11-15-new-skin-on-frame-coating-day.markdown %})' blog.
+
 ## Repairs
 
 For quick/on-the-water repairs, I always bring a few meters of <strong>duct tape</strong> with me, although I have not needed it so far.
