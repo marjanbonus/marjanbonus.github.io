@@ -9,10 +9,13 @@ description: Authentic West Greenland kayak designed for sea kayaking enthusiast
 
 **West Greenland Kayak**<br />
 _Authentic West Greenland kayak designed for sea kayaking enthusiasts, featuring traditional hard chine hull design. Superior secondary stability and good primary stability due to low center of gravity seating position and shallow V-hull design._<br />
-**Specifications:**<br />
-![wg_spec](/assets/images/creations/wg/wg_spec.webp)
-_* Depths are measured without coaming height (additional 3cm)_<br />
-_* Different LOA/beam than shown in table are possible too_<br />
+**Specifications (depending on size):**<br />
+_LOA: 500cm - 540cm_
+_Beam: 51cm - 55cm_
+_Overall volume: 195L - 246L_
+_Depth overall (cockpit front): custom size, usually 23cm - 26cm_
+_Rear of cockpit depth: 16cm - 17.5cm_<br />
+_* Given depths do not include coaming height (additional 3cm)_<br />
 **Wood**
 _Combination of Slavonian Oak for steam bending (Ribs, Cockpit coaming and arched deck beams), Ash (Masik) and European silver fir/Norway spruce/Pine/European larch for the rest of the frame._<br />
 **Frame finish**
