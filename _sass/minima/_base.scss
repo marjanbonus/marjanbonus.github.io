@@ -301,7 +301,11 @@ table {
       display: block;
       .img {
         background-attachment: fixed;
-        height: 100%;
+        background-size: cover;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
       }
       .container.cover {
         position: absolute;
@@ -344,9 +348,10 @@ table {
     img {
       position: fixed;
       object-fit: cover;
-      bottom: 0;
+      top: 0;
+      left: 0;
       width: 100%;
-      height: 100%;
+      height: 100vh;
       z-index: -1;
     }
   }
